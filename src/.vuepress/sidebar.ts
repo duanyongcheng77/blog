@@ -16,6 +16,12 @@ export default sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text: "NAS",
+      icon: "/nas.svg",
+      prefix: "unraid/",
+      children: "structure",
+    },
     "intro",
     "slides",
   ],
