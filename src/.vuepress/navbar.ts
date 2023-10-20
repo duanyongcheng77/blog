@@ -9,6 +9,9 @@ export default navbar([
     prefix: "/unraid/",
     children: [
       {text:"frp",link:"frp/"},
+      {text:"gitlab", prefix:"gitlab/",children:[
+        {text:"install",link:"gitlab/"}
+      ]}
     ],
   },
   {
