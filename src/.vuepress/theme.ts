@@ -10,10 +10,13 @@ export default hopeTheme({
 
   author: {
     name: "Mr.Barry",
-    url: "https://mister-hope.com",
+    url: "https://117199.xyz",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  // iconAssets: ["fontawesome-with-brands"],
+  iconAssets:"iconify",
+
+  // iconPrefix: "mdi:",
 
   logo: "/logo.svg",
 

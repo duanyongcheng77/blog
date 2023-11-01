@@ -2,27 +2,22 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
+      "text": "首页",
+      icon: "mdi:home",
+      link: "/",
     },
     {
       text: "文章",
-      icon: "book",
+      icon: "mdi:books",
       prefix: "posts/",
       children: "structure",
     },
     {
       text: "NAS",
-      icon: "/nas.svg",
+      icon: "mdi:nas",
       prefix: "unraid/",
       children: "structure",
     },
-    "intro",
-    "slides",
   ],
 });
