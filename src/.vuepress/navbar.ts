@@ -4,22 +4,28 @@ export default navbar([
   {
     text: "博客主页",
     link: "/",
-    icon:"mdi:home"
+    icon: "mdi:home"
   },
   {
-    text: "文章",
+    text: "全部文章",
     link: "/article/",
     icon: "fa6-solid:pen-to-square",
   },
   {
-    text: "工具",
+    text: "unraid",
     prefix: "/unraid/",
+    icon: "mdi:nas",
+    children: [],
+  },
+  {
+    text: "tools",
+    prefix: "/tools/",
     icon: "mdi:tools",
     children: [
-      {text:"frp",link:"frp/"},
-      {text:"gitlab", prefix:"gitlab/",children:[
-        {text:"install",link:"gitlab/"}
-      ]}
+      { text: "frp", link: "frp/" },
+      {
+        text: "gitlab", link: "gitlab/",
+      }
     ],
   },
   {

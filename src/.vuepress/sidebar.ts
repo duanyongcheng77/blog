@@ -8,16 +8,18 @@ export default sidebar({
       link: "/",
     },
     {
-      text: "文章",
-      icon: "mdi:books",
-      prefix: "posts/",
-      children: "structure",
-    },
-    {
       text: "NAS",
       icon: "mdi:nas",
       prefix: "unraid/",
       children: "structure",
     },
+    {
+      text: "工具",
+      icon: "mdi:tools",
+      prefix: "tools/",
+      children: "structure",
+    },
+    "intro",
+    // "slides",
   ],
 });
