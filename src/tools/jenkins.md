@@ -96,3 +96,19 @@ pipeline {
 ```log
 /var/lib/jenkins/workspace/blogetmp/durable-0dood3ab/script.sh: 1: cd: can't cd to /root/blog
 ```
+
+这是因为,我要去的地方jenkins没有权限,修改jenkins的启动脚本,使用root用户启动.`nvim /usr/lib/systemd/system/jenkins.service`
+
+```service
+User=root
+Group=root
+```
+
+### 6. jenkins的配置node环境变量
+
+在部署的过程中,发现jenkins没有node环境,需要配置node环境变量. jenkins脚本使用的是`sh`命令,所以需要在jenkins的全局配置中配置node环境变量
+
+`系统管理>系统配置>全局属性>环境变量`
+![环境变量](</assets/images/jenkins-env.png>)
+
+需要注意的是,这里的key用的是`PATH+EXTRA`值用的`$PATH:{your node path}`
