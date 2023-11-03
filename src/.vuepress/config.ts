@@ -5,7 +5,6 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
   base: "/",
-
   lang: "zh-CN",
   title: "barry的博客",
   description: "barry 的博客演示",

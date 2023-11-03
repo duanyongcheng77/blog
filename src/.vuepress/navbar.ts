@@ -25,7 +25,8 @@ export default navbar([
       { text: "frp", link: "frp/" },
       {
         text: "gitlab", link: "gitlab/",
-      }
+      },
+      {text: "jenkins", link: "jenkins/"},
     ],
   },
   {

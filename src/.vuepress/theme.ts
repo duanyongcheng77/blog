@@ -80,15 +80,17 @@ export default hopeTheme({
     }
   },
 
+  editLink: false,
   // page meta
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "",
   },
 
   plugins: {
     blog: true,
     copyCode: {
       showInMobile: true,
+      // fancy: true,
     },
     comment: {
       // You should generate and use your own comment service
