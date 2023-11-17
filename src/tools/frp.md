@@ -66,7 +66,7 @@ token = 123456
 dashboard_port = 7500
 # frp管理后台用户名和密码，请改成自己的
 dashboard_user = admin
-dashboard_pwd = 6CA81C04-593D-43C6-B89C-AB2F869B20A4
+dashboard_pwd = pwd
 enable_prometheus = true
 
 # frp日志配置

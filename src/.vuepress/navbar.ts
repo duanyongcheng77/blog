@@ -12,9 +12,9 @@ export default navbar([
     icon: "fa6-solid:pen-to-square",
   },
   {
-    text: "unraid",
-    prefix: "/unraid/",
-    icon: "mdi:nas",
+    text: "posts",
+    prefix: "/posts/",
+    icon: "gridicons:posts",
     children: [],
   },
   {

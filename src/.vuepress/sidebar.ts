@@ -8,9 +8,9 @@ export default sidebar({
       link: "/",
     },
     {
-      text: "NAS",
-      icon: "mdi:nas",
-      prefix: "unraid/",
+      text: "文章",
+      icon: "gridicons:posts",
+      prefix: "posts/",
       children: "structure",
     },
     {
