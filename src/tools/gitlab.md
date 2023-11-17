@@ -18,5 +18,5 @@ tag:
 
 **本文使用的是ubuntu20.04**
 [官网的安装方法](https://about.gitlab.com/install/#ubuntu)
-
+just a test
 
