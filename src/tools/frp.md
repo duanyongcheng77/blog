@@ -1,5 +1,5 @@
 ---
-icon: pen-to-square
+icon: tabler:network
 date: 2023-10-10
 # 你可以自定义封面图片
 cover: /assets/images/frpc.png
