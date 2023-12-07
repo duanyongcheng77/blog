@@ -15,7 +15,9 @@ export default navbar([
     text: "posts",
     prefix: "/posts/",
     icon: "gridicons:posts",
-    children: [],
+    children: [
+      { text: "gxy", link: "gxy"}
+    ],
   },
   {
     text: "tools",
