@@ -34,6 +34,17 @@ OpenJDK Runtime Environment (build 11.0.20.1+1-post-Ubuntu-0ubuntu120.04)
 OpenJDK 64-Bit Server VM (build 11.0.20.1+1-post-Ubuntu-0ubuntu120.04, mixed mode, sharing)
 ```
 
+- 需要增加JAVA_HOME环境变量
+
+```bash
+which java
+/usr/bin/java
+ll /usr/bin/java
+/usr/bin/java ⇒ /etc/alternatives/java
+ll /etc/alternatives/java
+/etc/alternatives/java ⇒ /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+```
+
 ### 3. 安装jenkins
 
 ```bash
