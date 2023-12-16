@@ -35,5 +35,5 @@ export default navbar([
     text: "文档",
     icon: "mdi:books",
     link: "https://theme-hope.vuejs.press/zh/",
-  },
+  }
 ]);

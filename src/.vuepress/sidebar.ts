@@ -19,6 +19,12 @@ export default sidebar({
       prefix: "tools/",
       children: "structure",
     },
+    {
+      text:"随笔",
+      icon: "arcticons:sketch",
+      prefix: "life/",
+      children: "structure",
+    },
     "intro",
     // "slides",
   ],
